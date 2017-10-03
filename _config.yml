@@ -1,0 +1,14 @@
+# Site settings
+title: uO Campus Guide
+email: contact@josephroque.ca
+description: > # this means to ignore newlines until "baseurl:"
+  An app to help students at the University of Ottawa learn more about their campus,
+  get involved, and stay organized.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://campusguide.ca" # the base hostname & protocol for your site
+twitter_username: coruon
+github_username:  josephroque
+author: Joseph Roque
+
+# Build settings
+markdown: kramdown
