@@ -1,19 +1,6 @@
 let tabIcons = [];
 
 function init() {
-  const header = document.getElementById("header");
-  const footer = document.getElementById("footer");
-  const content = document.getElementById("content");
-
-  const headerHeight = header.getBoundingClientRect().bottom - header.getBoundingClientRect().top;
-  const footerHeight = footer.getBoundingClientRect().bottom - footer.getBoundingClientRect().top;
-
-  content.style.paddingTop = `${header.getBoundingClientRect().bottom}px`;
-  content.style.paddingBottom = `${footerHeight}px`;
-
-  const mainContent = document.getElementById("main-content");
-  mainContent.style.height = `${window.innerHeight - (headerHeight + footerHeight)}px`;
-
   tabIcons = document.querySelectorAll(".tab-icon");
   onResizeHandler();
 
@@ -51,6 +38,19 @@ function onScrollHandler() {
 }
 
 function onResizeHandler() {
+  const header = document.getElementById("header");
+  const footer = document.getElementById("footer");
+  const content = document.getElementById("content");
+
+  const headerHeight = header.getBoundingClientRect().bottom - header.getBoundingClientRect().top;
+  const footerHeight = footer.getBoundingClientRect().bottom - footer.getBoundingClientRect().top;
+
+  content.style.paddingTop = `${header.getBoundingClientRect().bottom}px`;
+  content.style.paddingBottom = `${footerHeight}px`;
+
+  const mainContent = document.getElementById("main-content");
+  mainContent.style.height = `${window.innerHeight - (headerHeight + footerHeight)}px`;
+
   tabIcons.forEach((tabIcon) => {
     const outlineElement = document.getElementById(`${tabIcon.id}-outline`);
     const coords = getElementCoords(outlineElement);
