@@ -76,6 +76,20 @@ header {
         bottom: -$separator-width;
         background-color: $tertiary-color;
     }
+
+    .lang-button {
+        position: absolute;
+        padding: 24px;
+        right: 0;
+        color: $tertiary-color;
+        text-decoration: none;
+        font-style: bold;
+    }
+
+    .lang-button:hover {
+        color: $tertiary-color;
+        font-style: bold;
+    }
 }
 
 $blur-dist: 10px;

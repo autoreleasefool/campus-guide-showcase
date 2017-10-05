@@ -1,0 +1,62 @@
+en:
+  copyright: © Joseph Roque, 2017
+  affiliation: Not affiliated with the University of Ottawa
+  title: uO Campus Guide
+  tagline: An app to help students at the University of Ottawa learn more about their campus, get involved, and stay organized
+  tabs:
+    - name: Find
+      icon: navigate
+      description:
+        - text: Search through a list of all the buildings on and off campus to find information on any room you’re looking for!
+        - text: Need directions? With your location, or indicating your current location on campus, we’ll give you step by step instructions to get there.
+    - name: Discover
+      icon: compass
+      description:
+        - text: Learn more about your campus than you thought you ever would with the discovery section.
+        - text: Find tonnes of information on the school, faculties, events, and even city transit.
+    - name: Schedule
+      icon: calendar
+      description:
+        - text: If you're in need of a convenient place to keep track of your weekly, then look no further than uO Campus Guide.
+        - text: Setup reminders for courses, events on campus, and get step-by-step directions to all of them.
+    - name: Search
+      icon: search
+      description:
+        - text: Never feel overwhelmed by the app and all its great features.
+        - text: There's a convenient location for you to search ALL the content, from a single page, and browse for exactly what you're interested in.
+    - name: Settings
+      icon: settings
+      description:
+        - text: Make the app fit your needs.
+        - text: You can check the settings to switch the language, access various accessibility features, and report any issues you encounter so we can make it better for you!
+fr:
+  copyright: © Joseph Roque, 2017
+  affiliation: Non affilié à l'Université d'Ottawa
+  title: uO Campus Guide
+  tagline: Une application pour aider les étudiants de l'Université d'Ottawa à en apprendre davantage sur leur campus, s'impliquer et rester organisée.
+  tabs:
+    - name: Trouver
+      icon: navigate
+      description:
+        - text: Recherchez dans une liste de tous les bâtiments à l'intérieur et à l'extérieur du campus pour trouver des informations sur toute pièce que vous recherchez!
+        - text: Besoin d'instructions? Avec votre emplacement, ou indiquant votre emplacement actuel sur le campus, nous vous donnerons des instructions étape par étape pour y arriver.
+    - name: Découvrir
+      icon: compass
+      description:
+        - text: En savoir plus sur votre campus que vous ne l'avez pensé avec la section de découverte.
+        - text: Trouver des tonnes d'informations sur l'école, les facultés, les événements et même le transport en commun.
+    - name: Horaire
+      icon: calendar
+      description:
+        - text: Si vous avez besoin d'un endroit pratique pour garder une trace de votre hebdomadaire, n'oubliez pas plus que uO Campus Guide.
+        - text: Configurez des rappels pour les cours, les événements sur le campus et obtenez des instructions étape par étape à tous.
+    - name: Rechercher
+      icon: search
+      description:
+        - text: Ne vous sentez jamais débordé par l'application et par toutes ses fonctionnalités exceptionnelles.
+        - text: Il existe un emplacement pratique pour vous de rechercher TOUTES les contenus, à partir d'une seule page, et de rechercher exactement ce qui vous intéresse.
+    - name: Paramètres
+      icon: settings
+      description:
+        - text: Faites en sorte que l'application corresponde à vos besoins.
+        - text: Vous pouvez vérifier les paramètres pour changer de langue, accéder à diverses fonctionnalités d'accessibilité et signaler tout problème que vous rencontrez afin que nous puissions vous améliorer!

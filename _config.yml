@@ -12,3 +12,5 @@ author: Joseph Roque
 
 # Build settings
 markdown: kramdown
+plugins:
+  - jekyll-redirect-from

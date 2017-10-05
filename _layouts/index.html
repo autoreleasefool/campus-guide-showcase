@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+    {% include head.html %}
+
+    {% if page.url == "/fr.html" %}
+        {% assign lang = "fr" %}
+        {% assign lang_alt = "en" %}
+    {% else %}
+        {% assign lang = "en" %}
+        {% assign lang_alt = "fr" %}
+    {% endif %}
+
+    <body onload="init();">
+
+        <header id="header">
+            <input type="text" class="search" disabled />
+            <a href="/{{ lang_alt }}" class="lang-button">{{ lang_alt }}</a>
+            <div class="separator" />
+        </header>
+
+        <div class="background-image"></div>
+        <div id="content">
+            <div id="main-content">
+                <img src="/assets/icon.png" alt="App Icon" class="app-icon" />
+                <div class="text">
+                    <h1>{{ site.data.strings[lang].title }}</h1>
+                    <h3>{{ site.data.strings[lang].tagline }}</h3>
+                </div>
+            </div>
+
+            {% for tab in site.data.strings[lang].tabs %}
+
+            <div class="app-content {% if forloop.last == false %}large{% else %}small{% endif %}-bottom">
+                <img src="/assets/icons/{{ tab.icon }}.svg" alt="{{ tab.icon }} Icon" class="tab-icon hidden" id="icon-{{ tab.icon }}" />
+                <img src="/assets/icons/{{ tab.icon }}-outline.svg" alt="{{ tab.icon }} Icon" class="tab-icon-outline" id="icon-{{ tab.icon }}-outline" />
+
+                <div class="text">
+                    <h1>{{ tab.name }}</h1>
+                    {% for paragraph in tab.description %}
+                        <p>{{ paragraph.text }}</p>
+                    {% endfor %}
+                </div>
+            </div>
+
+            {% endfor %}
+
+        </div>
+
+        <footer id="footer">
+            <div class="text">
+                <p>{{ site.data.strings[lang].copyright }}</p>
+                <p>{{ site.data.strings[lang].affiliation }}</p>
+            </div>
+
+            <div class="badges">
+                <a href="#"><img src="/assets/GooglePlayBadge_{{ lang }}.png" class="badge" alt="Google Play Badge" /></a>
+                <a href="#"><img src="/assets/AppStoreBadge_{{ lang }}.png" class="badge" alt="App Store Badge" /></a>
+            </div>
+
+            <div class="separator" />
+        </footer>
+
+    </body>
+
+</html>
