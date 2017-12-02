@@ -1,6 +1,8 @@
 en:
   copyright: © Joseph Roque, 2017
   affiliation: Not affiliated with the University of Ottawa
+  privacy_policy: Privacy Policy
+  privacy_policy_link: https://www.iubenda.com/privacy-policy/8277745
   title: uO Campus Guide
   tagline: An app to help students at the University of Ottawa learn more about their campus, get involved, and stay organized.
   tabs:
@@ -32,6 +34,8 @@ en:
 fr:
   copyright: © Joseph Roque, 2017
   affiliation: Non affilié à l'Université d'Ottawa
+  privacy_policy: Politique de confidentialité
+  privacy_policy_link: https://www.iubenda.com/privacy-policy/8277745
   title: uO Campus Guide
   tagline: Une application pour aider les étudiants de l'Université d'Ottawa à en apprendre davantage sur leur campus, s'impliquer et rester organisée.
   tabs:
