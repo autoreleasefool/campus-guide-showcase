@@ -65,7 +65,7 @@ header {
         font-size: 20px;
         border: none;
         border-radius: $margin-expanded;
-        background-color: $transparent-bg;
+        background-color: transparent;
         height: 100%;
         margin: $margin-regular;
         padding: $margin-regular/2 $margin-regular;
@@ -140,7 +140,7 @@ $blur-dist: 10px;
 
     .text {
         margin-left: $margin-expanded;
-        max-width: 30em;
+        max-width: 40em;
         h2, h3 {
             font-family: 'Lato', sans-serif;
             font-style: normal;
@@ -240,7 +240,7 @@ footer {
     display: none;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 650px) {
     #main-content {
         flex-direction: column;
 
