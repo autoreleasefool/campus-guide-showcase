@@ -31,7 +31,7 @@
 
             {% for tab in site.data.strings[lang].tabs %}
 
-            <div class="app-content {% if forloop.last == false %}large{% else %}small{% endif %}-bottom">
+            <div class="app-content {% if forloop.last == false %}small{% else %}large{% endif %}-bottom">
                 <img src="/assets/icons/{{ tab.icon }}.svg" alt="{{ tab.icon }} Icon" class="tab-icon hidden" id="icon-{{ tab.icon }}" />
                 <img src="/assets/icons/{{ tab.icon }}-outline.svg" alt="{{ tab.icon }} Icon" class="tab-icon-outline" id="icon-{{ tab.icon }}-outline" />
 
