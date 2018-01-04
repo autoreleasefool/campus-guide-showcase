@@ -1,5 +1,5 @@
 en:
-  copyright: © Joseph Roque, 2017
+  copyright: © Joseph Roque, 2017-2018
   affiliation: Not affiliated with the University of Ottawa
   privacy_policy: Privacy Policy
   privacy_policy_link: https://www.iubenda.com/privacy-policy/8277745
@@ -32,11 +32,11 @@ en:
         - text: Make the app fit your needs.
         - text: You can check the settings to switch the language, access various accessibility features, and report any issues you encounter so we can make it better for you!
 fr:
-  copyright: © Joseph Roque, 2017
+  copyright: © Joseph Roque, 2017-2018
   affiliation: Non affilié à l'Université d'Ottawa
   privacy_policy: Politique de confidentialité
   privacy_policy_link: https://www.iubenda.com/privacy-policy/8277745
-  title: Campus Guide - Université d'Ottawa
+  title: Guide du campus - l'Université d'Ottawa
   tagline: Une application pour aider les étudiants de l'Université d'Ottawa à en apprendre davantage sur leur campus, s'impliquer et rester organisée.
   tabs:
     - name: Trouver

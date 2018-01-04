@@ -1,6 +1,6 @@
 # Campus Guide - Showcase
 
-A website to showcase the uO Campus Guide app for Android and iOS
+A website to showcase the University of Ottawa Campus Guide app for Android and iOS
 
 View the site live [here](http://campusguide.ca)
 
@@ -10,7 +10,7 @@ Created by Joseph Roque
 ## License
 
 ```
-Copyright 2017 Joseph Roque
+Copyright 2017-2018 Joseph Roque
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
