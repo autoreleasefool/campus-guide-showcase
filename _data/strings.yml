@@ -10,16 +10,16 @@ en:
       icon: navigate
       description:
         - text: Search through a list of all the buildings on and off campus to find information on any room you're looking for!
-        - text: Need directions? With your location we'll give you step by step instructions to get there.
+        - text: Need directions? With your location, we'll give you step by step instructions to get there.
     - name: Discover
       icon: compass
       description:
-        - text: Learn more about your campus than you thought you ever would with the discovery section.
+        - text: Learn more about your campus than you ever thought you would with the discovery section.
         - text: Find tons of information on the school, faculties, events, and even city transit.
     - name: Schedule
       icon: calendar
       description:
-        - text: If you're in need of a convenient place to keep track of your weekly schedule, then look no further than uO Campus Guide.
+        - text: If you're in need of a convenient place to keep track of your weekly schedule, then look no further.
         - text: Set up reminders for courses or events on campus, and get step-by-step directions to all of them.
     - name: Search
       icon: search
@@ -30,7 +30,7 @@ en:
       icon: settings
       description:
         - text: Make the app fit your needs.
-        - text: You can check the settings to switch the language, access various accessibility features, and report any issues you encounter so we can make it better for you!
+        - text: You can check the settings to switch languages, access various accessibility features, and report any issues you encounter so we can make it better for you!
 fr:
   copyright: © Joseph Roque, 2017-2018
   affiliation: Non affilié à l'Université d'Ottawa
