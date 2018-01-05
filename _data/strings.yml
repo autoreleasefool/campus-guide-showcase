@@ -37,30 +37,30 @@ fr:
   privacy_policy: Politique de confidentialité
   privacy_policy_link: https://www.iubenda.com/privacy-policy/8277745
   title: Guide du campus - l'Université d'Ottawa
-  tagline: Une application pour aider les étudiants de l'Université d'Ottawa à en apprendre davantage sur leur campus, s'impliquer et rester organisée.
+  tagline: Une application qui aide les étudiants de l'Université d'Ottawa à en apprendre davantage sur leur campus, à s'impliquer et à rester organisés.
   tabs:
     - name: Trouver
       icon: navigate
       description:
-        - text: Recherchez dans une liste de tous les bâtiments à l'intérieur et à l'extérieur du campus pour trouver des informations sur toute pièce que vous recherchez!
-        - text: Besoin d'instructions? Avec votre emplacement, nous vous donnerons des instructions étape par étape pour y arriver.
+        - text: Parcourez une liste de l'ensemble des bâtiments sur le campus et en dehors afin de trouver des informations à propos des salles que vous recherchez!
+        - text: Besoin de directions? En localisant votre position, nous vous donnerons des instructions étape par étape pour atteindre votre destination.
     - name: Découvrir
       icon: compass
       description:
-        - text: En savoir plus sur votre campus que vous ne l'avez pensé avec la section de découverte.
-        - text: Trouvez des tonnes d'informations sur l'école, les facultés, les événements et même le transit de la ville.
+        - text: Découvrez-en bien plus que vous ne le pensiez à propos de votre campus à l'aide de la section « Découverte ».
+        - text: Trouvez des tonnes d'informations sur l'école, les facultés, les événements et même sur les transports en commun offerts par la ville.
     - name: Horaire
       icon: calendar
       description:
-        - text: Si vous avez besoin d'un endroit pratique pour suivre votre horaire hebdomadaire, ne cherchez pas plus loin que uO Campus Guide.
-        - text: Configurez des rappels pour des cours ou des événements sur le campus, et obtenez des instructions étape par étape à tous.
+        - text: Si vous avez besoin d'un endroit pratique pour consulter votre emploi du temps hebdomadaire, ne cherchez pas plus loin.
+        - text: Configurez des rappels pour des cours ou des événements sur le campus, et recevez des instructions étape par étape pour assister à chacun d'entre eux.
     - name: Rechercher
       icon: search
       description:
-        - text: Ne vous sentez jamais débordé par l'application et par toutes ses fonctionnalités exceptionnelles.
-        - text: Il existe un moyen pratique pour vous de rechercher TOUT LE contenu, à partir d'une seule page, et de rechercher exactement ce qui vous intéresse.
+        - text: Ne vous sentez jamais dépassé par l'application et toutes les fonctionnalités exceptionnelles qu'elle propose.
+        - text: Voici un moyen pratique pour vous de rechercher TOUT le contenu, à partir d'une seule page, et de parcourir exactement ce qui vous intéresse.
     - name: Paramètres
       icon: settings
       description:
-        - text: Faites en sorte que l'application corresponde à vos besoins.
-        - text: Vous pouvez vérifier les paramètres pour changer de langue, accéder à diverses fonctionnalités d'accessibilité et signaler tout problème que vous rencontrez afin que nous puissions vous améliorer!
+        - text: Adaptez l'application à vos besoins.
+        - text: Vous pouvez ajuster les paramètres pour changer de langue, accéder à diverses caractéristiques d'accessibilité et signaler tout problème que vous rencontrez afin que nous puissions l'améliorer pour vous!
