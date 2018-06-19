@@ -2,7 +2,7 @@
 
 A website to showcase the University of Ottawa Campus Guide app for Android and iOS
 
-View the site live [here](http://campusguide.ca)
+View the site live [here](https://campusguide.ca)
 
 Created by Joseph Roque
 
